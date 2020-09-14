@@ -1,6 +1,4 @@
-export const sum = (a: number, b: number) => {
-  if ('development' === process.env.NODE_ENV) {
-    console.log('boop');
-  }
-  return a + b;
-};
+export { normalizeString } from './normalizeString';
+export { hasData } from './hasData';
+export { getMatches } from './getMatches';
+export { getTotalOfValues } from './getTotalOfValues';
