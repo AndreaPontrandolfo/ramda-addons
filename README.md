@@ -1,106 +1,64 @@
-<center>
+<center><img src="assets/images/ramda-addons.svg"/></center>
+<h1 align="center">Welcome to Ramda Addons</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-2.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/AndreaPontrandolfo/ramda-addons#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/AndreaPontrandolfo/ramda-addons/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/AndreaPontrandolfo/ramda-addons/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/AndreaPontrandolfo/ramda-addons" />
+  </a>
+</p>
 
-![](assets/images/ramda-addons.svg)
+> This package provides an extra set of common utility functions when using Ramda.js
 
-## Ramda Addons
+### 🏠 [npm](https://www.npmjs.com/package/ramda-addons)
 
-</center>
-<br />
+⚠️ **This package requires that you already have [Ramda.js](https://github.com/ramda/ramda) installed as a dependency!**
 
-Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
+## Install
 
-> This TSDX setup is meant for developing libraries (not apps!) that can be published to NPM. If you’re looking to build a Node app, you could use `ts-node-dev`, plain `ts-node`, or simple `tsc`.
-
-> If you’re new to TypeScript, checkout [this handy cheatsheet](https://devhints.io/typescript)
-
-## Commands
-
-TSDX scaffolds your new library inside `/src`.
-
-To run TSDX, use:
-
-```bash
-npm start # or yarn start
+```sh
+yarn install
 ```
 
-This builds to `/dist` and runs the project in watch mode so any edits you save inside `src` causes a rebuild to `/dist`.
+## Usage
 
-To do a one-off build, use `npm run build` or `yarn build`.
-
-To run tests, use `npm test` or `yarn test`.
-
-## Configuration
-
-Code quality is set up for you with `prettier`, `husky`, and `lint-staged`. Adjust the respective fields in `package.json` accordingly.
-
-### Jest
-
-Jest tests are set up to run with `npm test` or `yarn test`.
-
-#### Setup Files
-
-This is the folder structure we set up for you:
-
-```txt
-/src
-  index.tsx       # EDIT THIS
-/test
-  blah.test.tsx   # EDIT THIS
-.gitignore
-package.json
-README.md         # EDIT THIS
-tsconfig.json
+```sh
+yarn start
 ```
 
-### Rollup
+## Available functions
 
-TSDX uses [Rollup](https://rollupjs.org) as a bundler and generates multiple rollup configs for various module formats and build settings. See [Optimizations](#optimizations) for details.
+- getMatches(sourceData: string[], searchedValue: string) [return all found matches in the list]
+- getTotalOfValues(object) [return the total amount of values in a object, including the values nested in arrays]
+- hasData(element: any) [check if the object exist and contains some values]
+- normalizeString(string) [lower a given string and remove whitespaces]
 
-### TypeScript
+## Author
 
-`tsconfig.json` is set up to interpret `dom` and `esnext` types, as well as `react` for `jsx`. Adjust according to your needs.
+👤 **Andrea Pontrandolfo**
 
-## Continuous Integration
+* Github: [@AndreaPontrandolfo](https://github.com/AndreaPontrandolfo)
 
-### GitHub Actions
+## 🤝 Contributing
 
-A simple action is included that runs these steps on all pushes:
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AndreaPontrandolfo/ramda-addons/issues). You can also take a look at the [contributing guide](https://github.com/AndreaPontrandolfo/ramda-addons/blob/master/CONTRIBUTING.md).
 
-- Installs deps w/ cache
-- Lints, tests, and builds
+## Show your support
 
-## Optimizations
+Give a ⭐️ if this project helped you!
 
-Please see the main `tsdx` [optimizations docs](https://github.com/palmerhq/tsdx#optimizations). In particular, know that you can take advantage of development-only optimizations:
+## 📝 License
 
-```js
-// ./types/index.d.ts
-declare var __DEV__: boolean;
+Copyright © 2020 [Andrea Pontrandolfo](https://github.com/AndreaPontrandolfo).<br />
+This project is [MIT](https://github.com/AndreaPontrandolfo/ramda-addons/blob/master/LICENSE) licensed.
 
-// inside your code...
-if (__DEV__) {
-  console.log('foo');
-}
-```
-
-You can also choose to install and use [invariant](https://github.com/palmerhq/tsdx#invariant) and [warning](https://github.com/palmerhq/tsdx#warning) functions.
-
-## Module Formats
-
-CJS, ESModules, and UMD module formats are supported.
-
-The appropriate paths are configured in `package.json` and `dist/index.js` accordingly. Please report if any issues are found.
-
-## Named Exports
-
-Per Palmer Group guidelines, [always use named exports.](https://github.com/palmerhq/typescript#exports) Code split inside your React app instead of your React library.
-
-## Including Styles
-
-There are many ways to ship styles, including with CSS-in-JS. TSDX has no opinion on this, configure how you like.
-
-For vanilla CSS, you can include it at the root directory and add it to the `files` section in your `package.json`, so that it can be imported separately by your users and run through their bundler's loader.
-
-## Publishing to NPM
-
-We recommend using [np](https://github.com/sindresorhus/np).
+***
+## Acknowledgements
+- project boostrapped with [tsdx](https://github.com/formium/tsdx)
+- published on npm with [np](https://github.com/sindresorhus/np)
+- readme generated with [readme-md-generator](https://github.com/kefranabg/readme-md-generator)

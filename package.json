@@ -15,8 +15,7 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "release": "np --no-2fa"
+    "prepare": "tsdx build"
   },
   "peerDependencies": {
     "ramda": "^0.27.1"
