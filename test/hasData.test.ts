@@ -1,6 +1,6 @@
 import { hasData } from '../src/hasData';
 
-it('should check if the object exist and contains some values ', () => {
+it('should check if the object exist and contains some values', () => {
   const filledObj = { fooKey: 'foo', barKey: 'bar' };
   const emptyObj = {};
   const nullObj = null;
