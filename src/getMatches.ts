@@ -1,4 +1,4 @@
-import { filter } from 'ramda';
+import { filter, toLower } from 'ramda';
 import { normalizeString } from './normalizeString';
 
 /**
@@ -9,6 +9,6 @@ export const getMatches = (sourceData: string[], searchedValue: string) => {
   return filter((element: any) => {
     const normalizedString: string = normalizeString(element);
 
-    return normalizedString.match(searchedValue);
+    return normalizedString.match(toLower(searchedValue));
   }, sourceData);
 };
