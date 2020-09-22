@@ -1,6 +1,8 @@
 <h1><img src="assets/images/ramda-addons.svg">  Ramda Addons</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-2.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://www.npmjs.com/package/ramda-addons" target="_blank">
+    <img alt="Version" src="https://img.shields.io/badge/version-2.1.0-blue.svg?cacheSeconds=2592000" />
+  </a>
   <a href="https://github.com/AndreaPontrandolfo/ramda-addons#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
