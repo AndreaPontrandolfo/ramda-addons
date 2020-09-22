@@ -1,4 +1,4 @@
-<h1><img src="assets/images/ramda-addons.svg">Ramda Addons</h1>
+<h1><img src="assets/images/ramda-addons.svg">  Ramda Addons</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-2.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/AndreaPontrandolfo/ramda-addons#readme" target="_blank">
