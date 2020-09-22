@@ -32,7 +32,7 @@ yarn start
 
 ## Available functions
 
-- getMatches(sourceData: string[], searchedValue: string) [return all found matches in the list]
+- `getMatches(sourceData: string[], searchedValue: string)` return all found matches in the list
 - getTotalOfValues(object) [return the total amount of values in a object, including the values nested in arrays]
 - hasData(element: any) [check if the object exist and contains some values]
 - normalizeString(string) [lower a given string and remove whitespaces]
