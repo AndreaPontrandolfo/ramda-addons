@@ -28,6 +28,11 @@
   },
   "name": "ramda-addons",
   "author": "AndreaPontrandolfo",
+  "keywords": [
+    "javascript",
+    "utils",
+    "ramda"
+  ],
   "module": "dist/ramda-addons.esm.js",
   "devDependencies": {
     "@types/lodash": "^4.14.161",
