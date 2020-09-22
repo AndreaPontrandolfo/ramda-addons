@@ -1,4 +1,7 @@
-<center><img src="assets/images/ramda-addons.svg"/></center>
+<center>
+  <img src="assets/images/ramda-addons.svg">
+</center>
+
 <h1 align="center">Welcome to Ramda Addons</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-2.1.0-blue.svg?cacheSeconds=2592000" />
